@@ -1,0 +1,25 @@
+{
+  "id": "asian_disease",
+  "bias": "framing",
+  "title": "The outbreak",
+  "paradigm": "Tversky & Kahneman (1981) Asian disease problem, between-subjects framing",
+  "design": "between",
+  "intro": "Imagine a country is preparing for the outbreak of an unusual disease that is expected to kill 600 people. Two alternative programmes have been proposed. Which would you choose?",
+  "conditions": {
+    "gain": {
+      "options": [
+        {"id": "sure", "text": "Programme A: 200 people will be saved."},
+        {"id": "gamble", "text": "Programme B: there is a 1/3 chance that 600 people will be saved, and a 2/3 chance that no one will be saved."}
+      ]
+    },
+    "loss": {
+      "options": [
+        {"id": "sure", "text": "Programme C: 400 people will die."},
+        {"id": "gamble", "text": "Programme D: there is a 1/3 chance that nobody will die, and a 2/3 chance that 600 people will die."}
+      ]
+    }
+  },
+  "scoring": {"type": "choice", "risky_option": "gamble"},
+  "reference": {"gain_risky_rate": 0.28, "loss_risky_rate": 0.78},
+  "debrief": "Programmes A and C are identical (200 live, 400 die), and so are B and D. In the original study 72% chose the sure option when it was framed as lives saved, but 78% chose the gamble when it was framed as deaths. You saw only one frame; the other frame is shown here so you can check whether your choice would have flipped."
+}

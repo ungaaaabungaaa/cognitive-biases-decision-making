@@ -1,0 +1,17 @@
+{
+  "id": "un_africa",
+  "bias": "anchoring",
+  "title": "The wheel of fortune",
+  "paradigm": "Tversky & Kahneman (1974) anchoring with an obviously random anchor",
+  "design": "between",
+  "intro": "A random number generator has produced the number shown below. First say whether the true value is higher or lower than that number, then give your best estimate.",
+  "question": "What percentage of the member states of the United Nations are African countries?",
+  "conditions": {
+    "low": {"anchor": 10},
+    "high": {"anchor": 65}
+  },
+  "answer": 28,
+  "scoring": {"type": "numeric", "min": 0, "max": 100},
+  "reference": {"median_low": 25, "median_high": 45, "anchoring_index": 0.5},
+  "debrief": "The number was random and carried no information, yet in the original study the group anchored on 10 estimated 25% while the group anchored on 65 estimated 45%. Today 54 of 193 UN members (28%) are African. Compare your estimate with the reference median for your anchor."
+}

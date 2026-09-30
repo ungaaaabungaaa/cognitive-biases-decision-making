@@ -1,0 +1,23 @@
+{
+  "id": "trivia",
+  "bias": "overconfidence",
+  "title": "How sure are you?",
+  "paradigm": "Two-alternative general-knowledge calibration (Lichtenstein & Fischhoff 1977)",
+  "design": "within",
+  "intro": "Answer each question, then say how confident you are that your answer is right (50% = a coin flip, 100% = certain).",
+  "items": [
+    {"q": "Which is longer?", "a": "Amazon River", "b": "Nile River", "correct": "b"},
+    {"q": "Which city is further north?", "a": "Rome", "b": "New York", "correct": "a"},
+    {"q": "Which has more people?", "a": "Nigeria", "b": "Russia", "correct": "a"},
+    {"q": "Which is heavier?", "a": "A litre of water", "b": "A litre of olive oil", "correct": "a"},
+    {"q": "Which was invented first?", "a": "The telephone", "b": "The typewriter", "correct": "b"},
+    {"q": "Which country has more time zones?", "a": "France", "b": "United States", "correct": "a"},
+    {"q": "Which planet has more moons?", "a": "Jupiter", "b": "Saturn", "correct": "b"},
+    {"q": "Which is older?", "a": "Oxford University", "b": "The Aztec Empire", "correct": "a"},
+    {"q": "Which is larger by area?", "a": "Greenland", "b": "Australia", "correct": "b"},
+    {"q": "Which is closer to the equator?", "a": "Miami", "b": "Cairo", "correct": "a"}
+  ],
+  "scoring": {"type": "calibration"},
+  "reference": {"typical_overconfidence": 0.15},
+  "debrief": "Well-calibrated judges are right 70% of the time when they say '70%'. Most people are right about 15 percentage points less often than their confidence suggests, and the gap grows for harder questions."
+}

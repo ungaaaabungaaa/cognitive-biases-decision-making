@@ -1,0 +1,16 @@
+{
+  "id": "linda",
+  "bias": "conjunction",
+  "title": "Linda",
+  "paradigm": "Tversky & Kahneman (1983) conjunction fallacy",
+  "design": "within",
+  "intro": "Linda is 31 years old, single, outspoken and very bright. She majored in philosophy. As a student she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.",
+  "question": "Which is more probable?",
+  "options": [
+    {"id": "teller", "text": "Linda is a bank teller."},
+    {"id": "teller_feminist", "text": "Linda is a bank teller and is active in the feminist movement."}
+  ],
+  "scoring": {"type": "choice", "correct": "teller"},
+  "reference": {"fallacy_rate": 0.85},
+  "debrief": "Every feminist bank teller is a bank teller, so the second option can never be more probable than the first. 85% of participants nevertheless chose it, because the added detail makes the description more representative of Linda."
+}

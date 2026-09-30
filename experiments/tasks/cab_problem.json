@@ -1,0 +1,21 @@
+{
+  "id": "cab_problem",
+  "bias": "base_rate_neglect",
+  "title": "The hit-and-run cab",
+  "paradigm": "Kahneman & Tversky (1972) cab problem; Gigerenzer & Hoffrage (1995) frequency format",
+  "design": "between",
+  "conditions": {
+    "probability": {
+      "intro": "A cab was involved in a hit-and-run accident at night. Two cab companies, Green and Blue, operate in the city. 85% of the cabs are Green and 15% are Blue. A witness identified the cab as Blue. The court tested the witness under the same conditions and found that the witness correctly identified each colour 80% of the time.",
+      "question": "What is the probability (0-100%) that the cab involved in the accident was Blue?"
+    },
+    "frequency": {
+      "intro": "A cab was involved in a hit-and-run accident at night. Out of every 100 cabs in the city, 85 are Green and 15 are Blue. A witness identified the cab as Blue. When tested, the witness correctly identified the colour of 80 out of every 100 cabs, and got the other 20 wrong.",
+      "question": "Out of 100 accidents like this one where the witness says 'Blue', how many involved a Blue cab? Give your answer as a number from 0 to 100."
+    }
+  },
+  "answer": 41,
+  "scoring": {"type": "numeric", "min": 0, "max": 100},
+  "reference": {"modal_answer_probability": 80, "bayesian": 41},
+  "debrief": "Of 100 cabs, 15 are Blue and the witness gets 12 of them right; 85 are Green and the witness wrongly calls 17 of them Blue. So when the witness says Blue, 12 of 29 cases (41%) are really Blue. Most people answer around 80% because they use the witness's reliability and ignore the base rate."
+}

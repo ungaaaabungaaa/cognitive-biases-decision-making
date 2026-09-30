@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cognitive Bias Lab</title>
+  <meta name="description" content="A seven-task self-assessment that measures your susceptibility to classic cognitive biases and explains each one.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Cognitive Bias Lab</h1>
+      <p class="tag">Seven classic experiments. Ten minutes. Find out where your intuition misleads you, and what to do about it.</p>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <section id="screen-intro" class="card">
+      <h2>How this works</h2>
+      <p>You will face seven short decision problems drawn from landmark studies in judgement and decision-making
+        (Tversky &amp; Kahneman, Wason, Arkes &amp; Blumer, and others). Answer with your honest first reaction:
+        there is no benefit to over-thinking, and the point is to see what your fast, intuitive System 1 does.</p>
+      <p>After each task you get a debrief that explains the bias, how the original participants answered, and a
+        concrete technique for avoiding it. At the end you get a personal scorecard and can download your responses
+        as a CSV compatible with the <code>cogbias analyze</code> command in this repository.</p>
+      <p class="muted">Nothing is uploaded. Everything runs in your browser.</p>
+      <button class="primary" id="start">Start</button>
+    </section>
+
+    <section id="screen-task" class="card hidden"></section>
+    <section id="screen-debrief" class="card hidden"></section>
+    <section id="screen-summary" class="card hidden"></section>
+  </main>
+
+  <footer class="wrap muted">
+    Part of <a href="https://github.com/ungaaaabungaaa/cognitive-biases-decision-making">cognitive-biases-decision-making</a>.
+    Task materials are paraphrased from the cited studies for educational use.
+  </footer>
+
+  <script src="tasks.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "id": "sunk_cost",
+  "bias": "sunk_cost",
+  "title": "Two ski trips",
+  "paradigm": "Arkes & Blumer (1985) ski-trip scenario",
+  "design": "within",
+  "intro": "You paid $100 for a weekend ski trip to Michigan. Weeks later you paid $50 for a ski trip to Wisconsin. You think you will enjoy Wisconsin more. Then you notice both trips are on the same weekend. The tickets are non-refundable and cannot be resold. You must choose one.",
+  "question": "Which trip do you take?",
+  "options": [
+    {"id": "michigan", "text": "The $100 Michigan trip"},
+    {"id": "wisconsin", "text": "The $50 Wisconsin trip (the one you expect to enjoy more)"}
+  ],
+  "scoring": {"type": "choice", "correct": "wisconsin"},
+  "reference": {"fallacy_rate": 0.54},
+  "debrief": "The $150 is spent whichever trip you take, so only future enjoyment should matter. 54% of participants nonetheless chose the more expensive, less enjoyable trip to avoid 'wasting' more money."
+}
